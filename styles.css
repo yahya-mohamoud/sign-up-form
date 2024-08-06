@@ -1,3 +1,12 @@
+@font-face {
+    font-family: "norsebold";
+    src: url("./src/fonts/norse-bold-webfont.woff2") format("woff2"),
+      url("./src/fonts/norse-bold-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
 *{
     margin: 0;
     padding: 0;
@@ -26,6 +35,10 @@ body{
 .odin-logo > img{
     width: 60px;
     height: 60px;
+}
+
+.odin-logo > h1{
+    font-family: norsebold;
 }
 .odin-logo{
     display: flex;
