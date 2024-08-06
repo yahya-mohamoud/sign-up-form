@@ -37,6 +37,7 @@
 
 h1{
     font-family: 'norsebold';
+    font-size: 2rem;
 }
 .odin-logo{
     display: flex;
