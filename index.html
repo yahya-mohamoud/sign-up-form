@@ -1,23 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Sign-up Form</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <div class="sidebar">
-            <div class="odin-logo">
-                <img src="/img/odin-logo.png" alt="">
-                <h1>ODIN</h1>
+      <div class="sidebar">
+        <div class="img"></div>
+        <div class="odin-logo">
+          <img src="/img/odin-logo.png" alt="" />
+          <h1>ODIN</h1>
+        </div>
+        <div class="para">
+          <p>
+            Photo by
+            <a href="https://unsplash.com/@haliewestphoto"
+              >
+              Halie West
+            </a>on<a
+                href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA"
+                >Unsplash</a
+              >
+            
+          </p>
+        </div>
+      </div>
+
+      <div class="main-form">
+        <h2 class="large">
+          This is not a real online service! you know you need something like
+          this in your life this is your life to help you realize your deepest
+          dreams.Sign up now to get started.
+        </h2>
+        <h2 class="small">You <em>know</em> you want to.</h2>
+
+        <div class="form-wrapper">
+          <h3>Let's do this!</h3>
+          <div class="row-wrapper">
+         <div class="row-one-form">
+          <div class="form">
+            <label for="firstName">FIRST NAME</label>
+            <input type="text" name="firstName" id="firstName" placeholder="firstName"/>
+          </div>
+          <div class="form">
+            <label for="mail">EMAIL</label>
+            <input type="email" name="mail" id="mail" placeholder="example@gmail.com" required>
+          </div>
+          <div class="form">
+            <label for="password">PASSWORD</label>
+            <input type="text" name="password" id="password" required placeholder="*********">
+          </div>
+
+          <button>Create Account</button>
+          <p>Already have an account?<a href="">log in</a></p>
+        </div>
+        <div class="row-two-form">
+            <div class="form">
+                <label for="lastName">LAST NAME</label>
+                <input type="text" name="lastName" id="lastName" placeholder="lastName">
             </div>
-            <div class="para">
-                <p>Photo by <a href="https://unsplash.com/@kimonmaritz">Kimon Maritz on <a href="https://unsplash.com/photos/river-between-mountains-under-white-clouds-zMV7sqlJNow">Unsplash</a>
-                </a></p>
+            <div class="form">
+                <label for="number">PHONE NUMBER</label>
+                <input type="tel" name="number"  min="9" max="13" id="number"  placeholder="1234567890">
+            </div>
+            <div class="form">
+                <label for="confirm">CONFIRM PASSWORD</label>
+                <input type="password" name="confirm" id="confirm" required placeholder="*********">
             </div>
         </div>
+        </div>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
