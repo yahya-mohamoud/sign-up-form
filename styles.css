@@ -1,7 +1,7 @@
 @font-face {
     font-family: "norsebold";
-    src: url("./src/fonts/norse-bold-webfont.woff2") format("woff2"),
-      url("./src/fonts/norse-bold-webfont.woff") format("woff");
+    src: url("/src/webfontkit-20240806-010624/norse-bold-webfont.woff") format("woff"),
+      url("/src/webfontkit-20240806-010624/norse-bold-webfont.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
   }
